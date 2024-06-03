@@ -1,0 +1,72 @@
+#resultContainer {
+    text-align: center;
+}
+
+#imcNumber {
+    font-size: 2.4rem;
+    margin-bottom: .6rem;
+}
+
+#imcInfo {
+    font-size: 1.4rem;
+    color: #CCC;
+}
+
+#resultContainer h3 {
+    margin-top: 1rem;
+    color: #dfdfdf;
+}
+
+#resultContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#imcTable {
+    margin: 1.5rem 0;
+    font-size: .8rem;
+}
+
+.tableHead {
+    font-weight: bold;
+    color: #fff;
+}
+
+.tableHead,
+.tableData {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    border-bottom: 1px solid #444;
+}
+
+.tableHead h4,
+.tableData p {
+    flex: 1;
+}
+
+.tableHead h4:nth-child(3),
+.tableData p:nth-child(3) {
+    max-width: 80px;
+}
+
+#backBtn {
+    align-self: center;
+}
+
+.good {
+    color: #12db34;
+}
+
+.low {
+    color: #dbce12;
+}
+
+.medium {
+    color: #db6212;
+}
+
+.high {
+    color: #db1912;
+}
