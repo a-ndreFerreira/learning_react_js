@@ -1,0 +1,27 @@
+fieldset {
+    max-width: 21.87rem;
+    margin: 0 auto;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+/* fieldset input:focus {
+    border: none;
+} */
+
+fieldset input {
+    width: 100%;
+    padding: .4rem .7rem;
+    border-radius: .9rem;
+}
+
+@media(min-width: 46rem) {
+    fieldset {
+        max-width: 30rem;
+    }
+
+    /* fieldset input {
+        width: 100%;
+    } */
+}

@@ -1,0 +1,20 @@
+.container {
+  min-height: 100vh;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+.button-container {
+  min-height: 5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.search-container {
+  margin-bottom: 2rem;
+}
+
+.search-container h3,
+.container p {
+  text-align: center;
+}
