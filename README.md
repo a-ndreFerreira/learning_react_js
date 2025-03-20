@@ -6,20 +6,20 @@ Este repositório é um espaço dedicado ao estudo e prática de **React JS**. A
 
 ###### Estudos sobre a Fetch API utilizando o JSONPlaceholder. Implementa uma galeria de cards que:
 
-Mapeia e exibe informações
+* Mapeia e exibe informações
 
-Possui um campo de busca para filtrar os resultados
+* Possui um campo de busca para filtrar os resultados
 
-Fornece feedback visual ao usuário
+* Fornece feedback visual ao usuário
 
-Inclui botões de paginação para navegação
+* Inclui botões de paginação para navegação
 
 ## 1 - Calculadora IMC
 
 ###### Uma calculadora simples de Índice de Massa Corporal (IMC), que:
 
-Permite ao usuário inserir peso e altura
+* Permite ao usuário inserir peso e altura
 
-Calcula o IMC automaticamente
+* Calcula o IMC automaticamente
 
-Exibe a classificação com base nos padrões de saúde
+* Exibe a classificação com base nos padrões de saúde
