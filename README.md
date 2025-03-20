@@ -14,6 +14,8 @@ Este repositório é um espaço dedicado ao estudo e prática de **React JS**. A
 
 * Inclui botões de paginação para navegação
 
+Confira [AQUI](https://github.com/a-ndreFerreira/learning_react_js/tree/main/exercicios-reactjs/frontend) o projeto.
+
 ## 1 - Calculadora IMC
 
 ###### Uma calculadora simples de Índice de Massa Corporal (IMC), que:
