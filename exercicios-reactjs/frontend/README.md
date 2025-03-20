@@ -30,8 +30,8 @@
 
 ## Galeria
 
-![Gallery](imgReadme/galeriaApp.png)
+![Gallery](https://github.com/user-attachments/assets/31e92b9f-54a1-49fb-a0ab-545d43995217)
 
 ## Campo de busca e feedback para usuários
 
-![Campo de busca e feedback para usuários](imgReadme/userFeedback.png)
+![Campo de busca e feedback para usuários](https://github.com/user-attachments/assets/e1ec2016-fc15-48de-9937-d0878fd77310)
