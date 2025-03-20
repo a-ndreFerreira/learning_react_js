@@ -27,3 +27,11 @@
 3. Execute o projeto: _npm run dev_
 
 # Demonstração
+
+## Galeria
+
+![Gallery](imgReadme/galeriaApp.png)
+
+## Campo de busca e feedback para usuários
+
+![Campo de busca e feedback para usuários](imgReadme/userFeedback.png)
