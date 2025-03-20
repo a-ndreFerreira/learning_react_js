@@ -22,9 +22,9 @@
 
 1. Clone este repositório!
 
-2. No root do projeto: _npm i_ , para instalar as dependências.
+2. No root do projeto: ```npm i``` , para instalar as dependências.
 
-3. Execute o projeto: _npm run dev_
+3. Execute o projeto: ```npm run dev```
 
 # Demonstração
 
