@@ -9,8 +9,13 @@ const mock = mockPostCard;
 
 describe('<PostCard />', () => {
 
-    it('should image in screen', () => {
+    it('should image, heading h2 with id and body in screen', () => {
+
+        // const {debug} = render(<PostCard {...mock} />); como se fosse um console.log do componente
+
         render(<PostCard {...mock} />);
+
+        //debug(); como se fosse um console.log do componente
 
         //para ver se tem o documneto
         // expect(expectVar).toBeInTheDocument();
@@ -22,6 +27,13 @@ describe('<PostCard />', () => {
             .toBeInTheDocument();
 
         expect(screen.getByText('body')).toBeInTheDocument();
+
+    })
+
+    it('should match snapshot', () => {
+        const { container } = render(<PostCard {...mock} />);
+
+        expect(container.firstChild).toMatchSnapshot();
 
     })
 })

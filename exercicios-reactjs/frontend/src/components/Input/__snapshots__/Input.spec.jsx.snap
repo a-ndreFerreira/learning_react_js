@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Input /> > should match snapshot 1`] = `
+<div>
+  <fieldset>
+    <legend>
+      Buscar
+    </legend>
+    <input
+      id="search"
+      name="search"
+      type="search"
+    />
+  </fieldset>
+</div>
+`;

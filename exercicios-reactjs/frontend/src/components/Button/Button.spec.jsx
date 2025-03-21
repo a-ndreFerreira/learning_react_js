@@ -38,12 +38,20 @@ describe('<Button />', () => {
     })
 
     it('should be enabled when disabled is false', () => {
-        render(<Button text='Load More Posts' disabled={false} />);
+        const fn = vi.fn();
+        render(<Button text='Load More Posts' disabled={false} onClick={fn} />);
 
         const button = screen.getByRole('button', { name: /Load More Posts/i });
 
         //toBeDisabeled para ver se esta desativado, e toBeEnabled para ver se esta ativado
         expect(button).toBeEnabled();
 
+    })
+
+    it('should match snapshot', () => {
+        const fn = vi.fn();
+        const { container } = render(<Button text='Load More Posts' disabled={false} onClick={fn} />);
+
+        expect(container.firstChild).toMatchSnapshot();
     })
 })

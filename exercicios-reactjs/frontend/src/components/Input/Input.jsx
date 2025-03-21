@@ -5,6 +5,8 @@ const Input = ({ onChange, searchValue, placeholder }) => {
         <fieldset>
             <legend>Buscar</legend>
             <input type='search'
+                name='search'
+                id='search'
                 onChange={onChange}
                 value={searchValue}
                 placeholder={placeholder}
