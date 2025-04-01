@@ -1,0 +1,132 @@
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentForm {
+    max-width: 64rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.title {
+    color: #1c2605;
+    margin-bottom: 1rem;
+}
+
+.checkboxArea {
+    padding: 1rem 0;
+    color: #1c2605;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.checkbox {
+    width: 1rem;
+    height: 1rem;
+}
+
+.button {
+    padding: .8rem 1.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: #4e6bbf;
+    color: #fff;
+    border-radius: .5rem;
+    transition: .2s ease;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: 2px 2px 8px -1px #1c2605;
+}
+
+.button:hover {
+    background-color: #1c2605;
+}
+
+.taskContainer {
+    max-width: 64rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .8rem;
+    color: #1c2605;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.taskContainer h1 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.taskContainer a {
+    text-decoration: none;
+}
+
+.task {
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #4e6bbf;
+    padding: 1rem;
+    border-radius: .8rem;
+    box-shadow: 2px 1px 8px -1px #4e6bbf;
+}
+
+.tagContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background-color: #4e6bbf;
+    color: #fff;
+    padding: .3rem .6rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.shareButton,
+.trashButton {
+    background-color: transparent;
+    border: none;
+    margin-top: .2rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.shareButton:hover,
+.trashButton:hover {
+    transform: scale(1.1);
+}
+
+.taskContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.taskContent p {
+    white-space: pre-wrap;
+}
+
+.publicLink {
+    color: #1c2605;
+    transition: all .2s ease;
+}
+
+.publicLink:hover {
+    font-weight: bold;
+}

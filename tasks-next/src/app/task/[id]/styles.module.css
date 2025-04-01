@@ -1,0 +1,45 @@
+.container {
+    max-width: 64rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+    color: #1c2605;
+}
+
+.main h1 {
+    margin-bottom: 1rem;
+}
+
+.userInfo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.content {
+    border: 1.5px solid #4e6bbf;
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: 2px 1px 8px -1px #4e6bbf;
+}
+
+.content p {
+    width: 100%;
+    white-space: pre-wrap;
+}

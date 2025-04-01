@@ -1,0 +1,75 @@
+.commentsContainer {
+    width: 100%;
+}
+
+.buttonComments {
+    padding: .8rem 1.3rem;
+    border: none;
+    cursor: pointer;
+    background-color: #4e6bbf;
+    color: #fff;
+    border-radius: .5rem;
+    transition: .2s ease;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    box-shadow: 2px 1px 8px -1px #1c2605;
+}
+
+.buttonComments:hover {
+    background-color: #1c2605;
+}
+
+.buttonComments:disabled {
+    cursor: not-allowed;
+    opacity: .8;
+}
+
+.taskComment h2 {
+    margin: 1rem 0;
+}
+
+.comment {
+    border: 1.5px solid #4e6bbf;
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    box-shadow: 2px 1px 8px -1px #4e6bbf;
+}
+
+.commentHead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentLabel {
+    background-color: #4e6bbf;
+    color: #fff;
+    padding: .3rem .6rem;
+    border-radius: .3rem;
+}
+
+.commentButton {
+    background-color: transparent;
+    border: none;
+    margin-top: .2rem;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.commentButton:hover {
+    transform: scale(1.1);
+}
+
+.comment .content {
+    width: 100%;
+    white-space: pre-wrap;
+    margin-top: .8rem;
+}
