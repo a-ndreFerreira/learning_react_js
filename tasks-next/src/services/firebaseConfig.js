@@ -3,7 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCPDD6wo_SZorgysBgnRhqEH2HJ-WFyFfg",
+    apiKey: process.env.GOOGLE_API_KEY,
     authDomain: "tasks-plus-888de.firebaseapp.com",
     projectId: "tasks-plus-888de",
     storageBucket: "tasks-plus-888de.firebasestorage.app",
