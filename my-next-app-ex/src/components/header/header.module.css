@@ -1,0 +1,12 @@
+.header {
+    color: #ccc;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.header a:hover {
+    color: #95ab95;
+}
